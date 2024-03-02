@@ -61,15 +61,3 @@ R, C, D = map(int, input().split())
 ROOM = [list(map(int, input().split())) for _ in range(N)]
 
 print(solution(N, M, R, C, D, ROOM))
-
-'''
-7 7
-4 2 1
-1 1 1 1 1 1 1
-1 0 0 0 1 0 1
-1 0 1 1 0 0 1
-1 0 0 0 0 1 1
-1 0 0 1 0 0 1
-1 0 0 0 0 0 1
-1 1 1 1 1 1 1
-'''
